@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fun with Numbers</title>
+</head>
+<body>
+	<h2>Guessing Game!</h2>
+	<p>You have 3 tries . . . </p>
+	<script>
+		var num = 39
+		var guess = prompt("Guess a number between 1 and 50!")
+		if (guess == num) {
+			alert("Good guess! You win.")
+		}
+		else 
+			if (guess > num) {
+				alert("Too large! Try again!")
+				guess
+		}
+				
+			if (guess < num) {
+			 	alert("Too small! Try again!")
+			 	guess	
+			}
+	</script>
+</body>	
+</html>
