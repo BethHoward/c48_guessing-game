@@ -15,13 +15,36 @@
 		else 
 			if (guess > num) {
 				alert("Too large! Try again!")
-				guess
-		}
-				
+				prompt("Guess a number between 1 and 50!")
+		}	
+				if (guess == num) {
+					alert("Good guess! You win.")
+				}
+				else 
+					if (guess > num) {
+						alert("Too large! Try again!")
+						prompt("Guess a number between 1 and 50!")
+					}
+					if (guess < num) {
+						alert("Too small! Try again!")
+						prompt("Guess a number between 1 and 50!")
+				}
 			if (guess < num) {
 			 	alert("Too small! Try again!")
-			 	guess	
+			 	prompt("Guess a number between 1 and 50!")	
 			}
+				if (guess == num) {
+					alert("Good guess! You win.")
+				}
+				else 
+					if (guess > num) {
+						alert("Too large! Try again!")
+						prompt("Guess a number between 1 and 50!")
+					}
+					if (guess < num) {
+						alert("Too small! Try again!")
+						prompt("Guess a number between 1 and 50!")
+				}
 	</script>
 </body>	
 </html>
