@@ -1,0 +1,37 @@
+<!DOCTYPE HTML> 
+<head>
+  <title>My Super Fun Game</title>
+</head>
+<body>
+	<h1>Our Guessing Game</h1>
+	<p>Here's my game</p>
+	<script>
+   		var number = 53;
+   		var guess = prompt("Guess a number");
+   		if (guess == number) {
+   			alert("You win!");
+   		}
+   		else {
+   			if (guess < number) {
+   				prompt ("You lose; your guess is too low. Try again.");
+   			}
+   		}
+   			else { 
+   			if (guess > number) {
+   				prompt ("Your guess is too high. Try again.");
+   				guess2 = prompt ("Try again");
+   			}
+   				else {
+   				if (guess2 > number) {
+   					alert ("You lose! Still too big!");
+   				}
+   					else {
+   						if (guess2 == number) {
+   							alert ("You win!");
+   						}
+   						}
+   					}
+   				}
+   			}
+	</script>
+</body>

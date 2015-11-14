@@ -1,0 +1,27 @@
+<!--> 
+  Charlie's code from class: 
+  guessing game w/ HTML and JS
+</-->
+
+<!DOCTYPE HTML>
+<head>
+  <title>My super fun game</title>
+</head>
+<body>
+  <h1>Our Guessing Game</h1>
+  <script>
+    var number = 32;
+    var guess = prompt("Guess a number");
+    if (guess == number) {
+      alert("You win!");
+    }
+    else {
+      if (guess < number) {
+          alert("You lose! Your guess is too low!")
+      }
+      if (guess > number) {
+          alert("You lose! Your guess is too high!")
+      }
+    }
+  </script>
+</body>
